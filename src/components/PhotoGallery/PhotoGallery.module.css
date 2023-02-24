@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Raleway:ital,wght@0,500;0,600;0,700;1,700&display=swap');
+
+.wrapper {
+  padding: 70px;
+  margin: auto;
+}
+
+.title {
+  font: 43px 'Raleway', sans-serif;
+  font-weight: 600;
+  color: #000000;
+  margin-left: 75px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  border-radius: 30px;
+  max-height: 225.87px;
+  height: 100%;
+  width: 100%;
+  max-width: 225.87px;
+}
+
+.galleryWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  margin: auto;
+  padding-top: 50px;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+
+.fullImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  width: 80%;
+  height: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font: 30px 'Raleway', sans-serif;
+    margin: 0 15px;
+  }
+
+  .wrapper {
+    padding: 30px;
+  }
+
+  .galleryWrap {
+    gap: 35px;
+    margin: auto;
+    padding-top: 40px;
+    justify-content: center;
+  }
+}
